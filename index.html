@@ -22,7 +22,21 @@
                 margin-top: 10 px;
                 margin-bottom: 40px;
             }
+
+            header>img { 
+                display: inline-block;  
+                height: 50px;
+                float: left;
+            }
+
+            nav {
+                display: inline-block;
+                float: right;
+            }
+
+
             a {
+                display: inline-block;
                 text-decoration: none;
                 font-size: 15px;
                 color: #9d9d9d;
@@ -37,7 +51,18 @@
                 margin-left: 80px;
             }
             div {
+                display: inline-block;
+                float: left;
+                width: 35%;
+                margin-left: 5%;
+            }
+
+            section>img {
+                display: inline-block;
+                float: left;
                 width: 45%;
+                margin-left:10% ;
+
             }
     </style>
 </head>
@@ -45,8 +70,8 @@
 <body>
     <main>
         <header>
-            <img src="mergaite-logo.png" alt="logo">
-            <nav style="float: right; margin-right: 20px; ">
+            <img src="./mergaite-logo.png" alt="logo">
+            <nav>
                 <a href="#"> Home</a>
                 <a href="#"> Tracks</a>
                 <a href="#"> Library</a>
@@ -55,11 +80,11 @@
             </nav>
         </header>
         <section>
-            <div style="float: left"> 
+            <div> 
              <h1  style="font-size: 100px; margin-bottom: 0px; ">404</h1>
              <p style="font-size: 20px; margin-bottom: 0px; width: 100%;">The link is broken or the page has been moved. </p>
             </div>
-            <img src="mergaite-paveikslelis.png" alt="mergaite" style="float: right; width: 49%;">
+            <img src="./mergaite-paveikslelis.png" alt="mergaite">
         </section>
     </main>
 </body>
